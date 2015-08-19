@@ -1,0 +1,32 @@
+{
+  "name": "firebase-login-form",
+  "version": "1.0.0",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a login form which works with firebase.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "firebase"
+  ],
+  "main": "firebase-login-form.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/tripy37/firebase-login-form/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "paper-input": "PolymerElements/paper-input#~1.0.11",
+    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#~1.0.1",
+    "iron-form": "PolymerElements/iron-form#~1.0.8"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
