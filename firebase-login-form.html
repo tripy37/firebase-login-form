@@ -217,7 +217,7 @@ Example:
       if (this.provider !== 'password') {
         this.fireLogin();
         return true;
-      } else if (this.$.form.checkValidity() && this.username && this.password){
+      } else if (this.$.form.checkValidity() && this.email && this.password){
         this.fireLogin();
         return true;
       } else {
